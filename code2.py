@@ -11,18 +11,10 @@ import pandas as pd
 from pandas.io.json import json_normalize
 
 
-# In[2]:
-
-
-# https://eiek-test.fa.em2.oraclecloud.com/fscmRestApi/resources/11.13.18.05/legalEntitiesLOV
-# username : 4970
-# password : AM123456
-
-
 # In[3]:
 
 
-r = requests.get('https://eiek-test.fa.em2.oraclecloud.com/fscmRestApi/resources/11.13.18.05/legalEntitiesLOV',auth=('4970','Am123456'))
+r = requests.get('https://ADDRESS',auth=('USERNAME','PASSWORD'))
 
 
 # In[4]:
